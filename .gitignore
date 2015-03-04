@@ -18,6 +18,8 @@ coverage
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
+data/
+db/
 
 # Dependency directory
 # Commenting this out is preferred by some people, see
