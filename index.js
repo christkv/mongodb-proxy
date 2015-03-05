@@ -4,7 +4,7 @@ var Proxy = require('./lib/proxy')
 // Start the 
 var yargs = require('yargs')
   .usage('Start a proxy.\nUsage: $0')
-  .example('$0 -p 51000 -b 127.0.0.1 -u mongodb://localhost:27017', 'Run proxy on port 5100 and bind to localhost')
+  .example('$0 -p 51000 -b 127.0.0.1 -u mongodb://localhost:27017', 'Run proxy on port 51000 and bind to 127.0.0.1')
   // The Monitor process port
   .describe('p', 'Port proxy is running on')
   .default('p', 51000)

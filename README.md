@@ -52,7 +52,7 @@ Example configuration file
 Usage: node ./index.js
 
 Examples:
-  node ./index.js -p 51000 -b 127.0.0.1 -u mongodb://localhost:27017    Run proxy on port 5100 and bind to localhost
+  node ./index.js -p 51000 -b 127.0.0.1 -u mongodb://localhost:27017    Run proxy on port 51000 and bind to 127.0.0.1
 
 
 Options:
