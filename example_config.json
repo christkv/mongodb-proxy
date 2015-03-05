@@ -1,0 +1,15 @@
+{
+    "port": 51000
+  , "uri": "mongodb://localhost:27017/test"
+  , "bind_to": "127.0.0.1"
+  , "debug": false
+  , "auth": {
+      "sslCA": "./ca.pem"
+    , "sslCert": "./cert.pem"
+    , "sslKey": "./cert.pem"
+    , "sslPass": "somekey"
+    , "sslValidate": false
+  }
+  , "log_level": "error"
+  , "log_file": "./proxy.log"
+}
