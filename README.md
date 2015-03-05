@@ -14,17 +14,17 @@ The proxy identifies itself to the driver as a `mongos` proxy and the connecting
 
 The proxy configuration `json` file options
 
-| Option | Description |
-|-|-|
-| port | The tcp port the proxy binds to |
-| uri | The MongoDB Topology URI (See driver docs for parameters) |
-| bind_to | The tcp address to bind the proxy to |
-| log_level | The logging level [error/info/debug] |
-| log_file | The log file to append to |
-| auth.sslCA | Location of certificate authority file |
-| auth.sslCert | Location of public certificate file we are presenting |
-| auth.sslKey | Location of private certificate file we are presenting |
-| auth.sslPass | SSL Certificate password |
+| Option           | Description |
+|------------------|-------------|
+| port             | The tcp port the proxy binds to |
+| uri              | The MongoDB Topology URI (See driver docs for parameters) |
+| bind_to          | The tcp address to bind the proxy to |
+| log_level        | The logging level [error/info/debug] |
+| log_file         | The log file to append to |
+| auth.sslCA       | Location of certificate authority file |
+| auth.sslCert     | Location of public certificate file we are presenting |
+| auth.sslKey      | Location of private certificate file we are presenting |
+| auth.sslPass     | SSL Certificate password |
 | auth.sslValidate | Validate mongod certificate |
 
 Example configuration file
