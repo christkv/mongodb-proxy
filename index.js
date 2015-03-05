@@ -17,9 +17,6 @@ var yargs = require('yargs')
   .describe('b', 'Bind to host interface')
   .default('b', '127.0.0.1')
   .alias('b', 'bind_to')
-  // The scenario file to execute
-  .describe('debug', 'Run with debug enables')
-  .default('debug', false)
   // Allow us to specify a json configuration file
   .describe('c', 'JSON configuration file')
   .alias('c', 'config')
